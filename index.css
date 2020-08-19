@@ -1,0 +1,151 @@
+body{
+    background-color: black;
+
+}
+
+
+.custom {
+    background-image: url(shiny.jpg);
+    height: 30%;
+    height: 20%;
+    background-repeat: none;
+    /* background-blend-mode: luminosity; */
+    background-size: cover;
+   
+}
+
+.custombottom{
+    background-image: black;
+    height: 15vh;
+}
+
+
+.aboutme2 {
+    background-color:white; 
+    margin-right: 5%; 
+    padding: 5%;
+}
+
+/* .jumbotron{
+    background-image: url(d.jpg);
+    /* width: 60%; */
+    /* height: 20rem;
+    background-repeat: none;
+    background-blend-mode: luminosity;
+    background-size: cover; */
+   
+/* } */ */
+
+.inline{
+    /* display: inline; */
+    display: flex;
+}
+
+.layer{
+    background-color: black;
+    opacity: 10%;
+}
+
+.flexattribute{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fleximg{
+    width: 60%;
+}
+
+h1 {
+    color : white;
+    font-weight: bold;
+    
+}
+
+.text{
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 1.5px;
+}
+
+.more{
+    background-color:grey;
+}
+
+.myImg {
+    background-image: url("myImage.jpeg");
+}
+
+.hero {
+    position: relative; 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.customAbout{
+    background-color: rgb(192, 122, 192);
+    
+}
+
+ul{
+    color: white;
+    font-size: large;
+}
+
+.icon{
+    border-radius : 0%;
+    mix-blend-mode: multiply;
+    height: 30%;
+}
+
+article > img {
+    height: 80%;
+    width: 30%;
+}
+
+.form{
+    margin-left: 45%;
+}
+
+.otherText{
+    color: blueviolet;
+    
+}
+
+.social{
+    /* mix-blend-mode: multiply; */
+    height: 15%;
+    width: 20%;
+}
+
+h2,h3{
+    color: white;
+}
+p{
+    color: grey;
+    font-weight: bold;
+}
+.submit:hover{
+    background-color :green;  
+}
+
+.reset:hover{
+    background-color :red;
+    
+}
+
+/* .col-md-4::after {    
+    content: "";
+    background-image: url("myImage.jpeg");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
+} */
